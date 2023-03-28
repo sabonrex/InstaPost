@@ -1,0 +1,58 @@
+body {
+    font-family: "Roboto";
+    background-color: black;
+  }    
+
+
+.fa-brands {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+}
+
+.header {
+    display: flex;
+    padding: 0 5%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.title {
+    display: flex;
+    gap: 15px;
+}
+
+.autor {
+    font-weight: lighter;
+}
+
+.post {
+    width: 500px;
+    margin: 0 auto;
+    background-color: rgb(255, 255, 255);
+
+}
+img {
+    background-image:  url("https://imgs.search.brave.com/65t0zugFyazSk3hnM5UZI_32CA_6OM1SceC1DHSAVXw/rs:fit:480:360:1/g:ce/aHR0cHM6Ly9jZG4u/bW9zLmNtcy5mdXR1/cmVjZG4ubmV0LzhI/UU1WQXRaMkxzYXRa/UWVXTXNjcEYtNDgw/LTgwLmpwZw"); 
+    width: 500px;
+    height: 400px;
+    background-size: cover;
+}
+
+.post-body {
+    padding: 2%;
+}
+
+i {
+    text-align: center;
+    padding: 0 5px;
+}
+
+.icons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-button {
+    display: flex;
+}
